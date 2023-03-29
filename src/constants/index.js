@@ -109,10 +109,10 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "March 2022 - September 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed new software update for the GPS175 navigator using C.",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality code and tests.",
+      "Implemented unit tests in C and Python for new features and bug fixes.",
+      "Resolved 83% of faulting or failing unit tests, saving valuable development time near the deadline.",
     ],
   },
 ];
