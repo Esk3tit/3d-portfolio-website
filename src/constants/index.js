@@ -15,42 +15,54 @@ import {
   git,
   figma,
   docker,
-  starbucks,
+  aiphone,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  garmin
+  realassist,
+  garmin,
+  pytype
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
+    external: false,
     title: "About",
   },
   {
     id: "work",
+    external: false,
     title: "Work",
   },
   {
     id: "contact",
+    external: false,
     title: "Contact",
+  },
+  {
+    id: "resume",
+    external: true,
+    title: "Resume",
+  },
+  {
+    id: "https://github.com/Esk3tit",
+    external: true,
+    title: "GitHub",
+  },
+  {
+    id: "https://www.linkedin.com/in/khai-phan/",
+    external: true,
+    title: "LinkedIn",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Embedded Systems Developer",
+    icon: creator,
+  },
+  {
+    title: "Full-stack Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
 ];
 
@@ -136,7 +148,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: aiphone,
     source_code_link: "https://github.com/Esk3tit/AIphone-but-better",
   },
   {
@@ -157,7 +169,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: pytype,
     source_code_link: "https://github.com/Esk3tit/py-type",
   },
   {
@@ -178,7 +190,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: realassist,
     source_code_link: "https://github.com/Esk3tit/realassist-mern-prototype",
   },
 ];

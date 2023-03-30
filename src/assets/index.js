@@ -27,9 +27,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import garmin from "./company/garmin.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import realassist from "./realassist.png";
+import pytype from "./pytype.png";
+import aiphone from "./aiphone.png";
 
 export {
   logo,
@@ -57,8 +57,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  realassist,
+  pytype,
+  aiphone,
   garmin
 };
