@@ -1,6 +1,4 @@
 import {
-  mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -8,7 +6,6 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
@@ -16,41 +13,51 @@ import {
   figma,
   docker,
   aiphone,
-  tesla,
   realassist,
   garmin,
-  pytype
+  pytype,
+  python,
+  cpp,
+  c,
+  flask,
+  sql,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     external: false,
+    downloadable: false,
     title: "About",
   },
   {
     id: "work",
     external: false,
+    downloadable: false,
     title: "Work",
   },
   {
     id: "contact",
     external: false,
+    downloadable: false,
     title: "Contact",
   },
   {
-    id: "resume",
+    id: "./Khai_Phan_Resume.pdf",
     external: true,
+    downloadable: true,
     title: "Resume",
   },
   {
     id: "https://github.com/Esk3tit",
     external: true,
+    downloadable: false,
     title: "GitHub",
   },
   {
     id: "https://www.linkedin.com/in/khai-phan/",
     external: true,
+    downloadable: false,
     title: "LinkedIn",
   },
 ];
@@ -67,6 +74,18 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -98,6 +117,14 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
+  {
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "git",

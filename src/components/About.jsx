@@ -29,8 +29,8 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        As a Software Engineer, I possess extensive hands-on experience in embedded systems and a proven track record in designing, developing, and deploying full-stack software solutions from scratch. 
-        I am a self-motivated and driven individual, committed to collaborating with diverse cross-functional teams to deliver quality, cutting-edge applications and features.
+      I have hands-on experience with embedded systems and a knack for crafting, tinkering, and launching web software solutions from zero to hero.
+      I'm a team player who loves joining forces with all sorts of groups across businesses to cook up amazing, cutting-edge apps and features that put a smile on users' faces 🙂.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

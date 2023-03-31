@@ -51,7 +51,7 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  {link.external ? <a href={link.id} target="_blank" rel="noopener noreferrer">{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a>}
+                  {link.external ? <a href={link.id} target="_blank" rel="noopener noreferrer" download={link.downloadable}>{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a>}
                 </li>
               ))}
             </ul>
