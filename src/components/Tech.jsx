@@ -7,11 +7,10 @@ import { fadeIn, textVariant } from '../utils/motion';
 import { styles } from "../styles";
 
 const TechCard = ({ index, name, icon }) => {
-
   return (
     <Tilt className='xs:w-[225px] w-full'>
       <motion.div variants={fadeIn("up", "spring", 0.25 * index, 0.5)} className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
-        <div options={{ max: 45, scale: 1, speed: 450 }} className='bg-tertiary rounded-[20px] py-5 px-8 min-h-[200px] flex justify-evenly items-center flex-col'>
+        <div options={{ max: 45, scale: 1, speed: 450 }} className='bg-tertiary rounded-[20px] py-3 px-8 min-h-[140px] flex justify-evenly items-center flex-col'>
           <img src={icon} alt={name} className='w-16 h-16 object-contain' />
           <h3 className='text-white text-[20px] font-bold text-center'>{name}</h3>
         </div>
