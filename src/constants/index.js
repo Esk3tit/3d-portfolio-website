@@ -21,6 +21,16 @@ import {
   c,
   flask,
   sql,
+  showingguide,
+  angular,
+  spring,
+  weaviate,
+  shopify,
+  java,
+  aws,
+  alpinejs,
+  cuehealth,
+  leetcodetracker,
 } from "../assets";
 
 export const navLinks = [
@@ -107,6 +117,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "AWS",
+    icon: aws,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -127,20 +141,68 @@ const technologies = [
     icon: sql,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Spring Framework/Spring Boot",
+    icon: spring,
+  },
+  {
+    name: "Weaviate",
+    icon: weaviate,
+  },
+  {
+    name: "Shopify",
+    icon: shopify,
+  },
+  {
+    name: "Alpine.js",
+    icon: alpinejs,
   },
 ];
 
 const experiences = [
+  {
+    title: "Software Development Intern",
+    company_name: "Cue Health",
+    icon: cuehealth,
+    iconBg: "#FFFFFF",
+    date: "June 2023 - August 2023",
+    points: [
+      "Reduced the time to treatment recommendation (in seconds) for customers by 21.7% by implementing multi-select widget answers in the health concierge chatbot.",
+      "Enabled thousands of users to efficiently query their subscriptions and orders using product names through the refinement of MongoDB queries in the Java and Spring framework backend.",
+      "Enhanced the chatbot's recommendation capabilities by researching, comparing, and integrating three distinct vector databases, ensuring that the best vector database is used to suggest blog posts that align closely with the customer's input.",
+    ],
+  },
+  {
+    title: "MERN Stack Developer Intern",
+    company_name: "ShowingGuide",
+    icon: showingguide,
+    iconBg: "#FFFFFF",
+    date: "April 2023 - June 2023",
+    points: [
+      "Uncovered and resolved 34 UI/UX issues during comprehensive usability testing, significantly enhancing overall user experience.",
+      "Led the design and architecture of a client dashboard using Angular, iteratively incorporating relevant features based on client feedback and needs.",
+      "Integrated a client-centric dashboard and API into the web application, providing seamless support for the entire client workflow.",
+    ],
+  },
   {
     title: "Software Engineer Intern",
     company_name: "Garmin",
@@ -153,10 +215,31 @@ const experiences = [
       "Implemented unit tests in C and Python for new features and bug fixes.",
       "Resolved 83% of faulting or failing unit tests, saving valuable development time near the deadline.",
     ],
-  },
+  }
 ];
 
 const projects = [
+  {
+    name: "L33tC0de Tracker",
+    description:
+      "*Work In Progress* This is an all-in-one central location to keep track of notes on leetcode problems solved and problems to be solved for later review as interview prep.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: leetcodetracker,
+    source_code_link: "https://github.com/Esk3tit/l33tc0de-tracker",
+  },
   {
     name: "AIPhone But Better",
     description:

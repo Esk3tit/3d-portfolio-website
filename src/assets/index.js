@@ -25,16 +25,25 @@ import cpp from "./tech/cpp.png";
 import c from "./tech/c.png";
 import flask from "./tech/flask.png";
 import sql from "./tech/sql.png";
+import angular from "./tech/angular.png";
+import java from "./tech/java.png";
+import shopify from "./tech/shopify.png";
+import weaviate from "./tech/weaviate.png";
+import spring from "./tech/spring.png";
+import alpinejs from "./tech/alpinejs.png";
+import aws from "./tech/aws.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import garmin from "./company/garmin.png";
+import showingguide from "./company/showingguide.png";
+import cuehealth from "./company/cue_health.png";
 
 import realassist from "./realassist.png";
 import pytype from "./pytype.png";
 import aiphone from "./aiphone.png";
+import leetcodetracker from "./leetcode_tracker.png";
 
 export {
   logo,
@@ -71,4 +80,13 @@ export {
   c,
   flask,
   sql,
+  showingguide,
+  angular,
+  cuehealth,
+  java,
+  weaviate,
+  spring,
+  alpinejs,
+  aws,
+  leetcodetracker,
 };
