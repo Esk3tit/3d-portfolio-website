@@ -31,6 +31,8 @@ import {
   alpinejs,
   cuehealth,
   leetcodetracker,
+  tesla,
+  cypress,
 } from "../assets";
 
 export const navLinks = [
@@ -74,12 +76,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Embedded Systems Developer",
-    icon: creator,
-  },
-  {
     title: "Full-stack Developer",
     icon: web,
+  },
+  {
+    title: "Embedded Systems Developer",
+    icon: creator,
   },
 ];
 
@@ -145,6 +147,10 @@ const technologies = [
     icon: git,
   },
   {
+    name: "Cypress",
+    icon: cypress,
+  },
+  {
     name: "Figma",
     icon: figma,
   },
@@ -180,15 +186,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Intern (Software Developer Engineer in Test Intern)",
+    company_name: "Tesla",
+    icon: tesla,
+    iconBg: "#FFFFFF",
+    date: "September 2023 - December 2023",
+    points: [
+      "Reduced execution time of end-to-end Cypress tests by 33% by refactoring tests to follow best practices and migrating to Cypress v13",
+      "Developed a flake-safe typing test command used in 3 full test suites to make the test suites produce consistent results",
+      "Increased the pass rate of regression tests by 20% by fixing flaky and outdated test cases, allowing all future software releases to be put into production faster by not having to rerun regression tests as often"
+    ]
+  },
+  {
     title: "Software Development Intern",
     company_name: "Cue Health",
     icon: cuehealth,
     iconBg: "#FFFFFF",
     date: "June 2023 - August 2023",
     points: [
-      "Reduced the time to treatment recommendation (in seconds) for customers by 21.7% by implementing multi-select widget answers in the health concierge chatbot.",
-      "Enabled thousands of users to efficiently query their subscriptions and orders using product names through the refinement of MongoDB queries in the Java and Spring framework backend.",
-      "Enhanced the chatbot's recommendation capabilities by researching, comparing, and integrating three distinct vector databases, ensuring that the best vector database is used to suggest blog posts that align closely with the customer's input.",
+      "Reduced the time to treatment recommendation (in seconds) for customers by 21.7% by implementing multi-select widget answers in the health concierge chatbot",
+      "Enabled thousands of users to efficiently query their subscriptions and orders using product names through the refinement of MongoDB queries in the Java and Spring framework backend",
+      "Enhanced the chatbot's recommendation capabilities by researching, comparing, and integrating three distinct vector databases, ensuring that the best vector database is used to suggest blog posts that align closely with the customer's input",
     ],
   },
   {
@@ -198,9 +216,9 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "April 2023 - June 2023",
     points: [
-      "Uncovered and resolved 34 UI/UX issues during comprehensive usability testing, significantly enhancing overall user experience.",
-      "Led the design and architecture of a client dashboard using Angular, iteratively incorporating relevant features based on client feedback and needs.",
-      "Integrated a client-centric dashboard and API into the web application, providing seamless support for the entire client workflow.",
+      "Integrated a client-centric dashboard and API into the web application, allow clients to use the web application to manage their listings and appointments (previously only realtors could use the web application)",
+      "Uncovered and resolved 34 UI/UX issues during comprehensive usability testing, significantly enhancing overall user experience",
+      "Led the design and architecture of a client dashboard using Angular, iteratively incorporating relevant features based on client feedback and needs",
     ],
   },
   {
@@ -210,10 +228,12 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "March 2022 - September 2022",
     points: [
-      "Developed new software update for the GPS175 navigator using C.",
-      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality code and tests.",
-      "Implemented unit tests in C and Python for new features and bug fixes.",
-      "Resolved 83% of faulting or failing unit tests, saving valuable development time near the deadline.",
+      "Developed new software update for the GPS175 navigator using C",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality code and tests that meet requirements",
+      "Contributed to enhanced product performance by creating new fuel onboard capabilities and flyover waypoints, as well as diagnosing and fixing over 12 issues like excessive waypoints in flight plans",
+      "Implemented unit tests in C and Python for new features and bug fixes, increasing code coverage by 10%",
+      "Improved user flows and overall UX by constructing fuel buttons and implementing auto-saving functionality",
+      "Resolved 83% of all failing/faulting tests for G2N navigator products by updating old test cases and designing and documenting new test cases following requirements",
     ],
   }
 ];
@@ -222,7 +242,7 @@ const projects = [
   {
     name: "L33tC0de Tracker",
     description:
-      "*Work In Progress* This is an all-in-one central location to keep track of notes on leetcode problems solved and problems to be solved for later review as interview prep.",
+      "*Work In Progress* This is an all-in-one central location to keep track of notes on leetcode problems solved to assist in interview prep and review.",
     tags: [
       {
         name: "nextjs",

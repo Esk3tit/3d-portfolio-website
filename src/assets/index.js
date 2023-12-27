@@ -32,6 +32,7 @@ import weaviate from "./tech/weaviate.png";
 import spring from "./tech/spring.png";
 import alpinejs from "./tech/alpinejs.png";
 import aws from "./tech/aws.png";
+import cypress from "./tech/cypress.jpeg";
 
 import meta from "./company/meta.png";
 import starbucks from "./company/starbucks.png";
@@ -89,4 +90,5 @@ export {
   alpinejs,
   aws,
   leetcodetracker,
+  cypress,
 };

@@ -29,7 +29,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-      I have hands-on experience with embedded systems and a knack for crafting, tinkering, and launching web software solutions from zero to hero.
+      I have hands-on experience with both stacks of web development, a little bit of embedded systems, and a knack for crafting, tinkering, and launching web software solutions from "zero to hero" as the kids would say.
       I'm a team player who loves joining forces with all sorts of groups across businesses to cook up amazing, cutting-edge apps and features that put a smile on users' faces 🙂.
       </motion.p>
 
