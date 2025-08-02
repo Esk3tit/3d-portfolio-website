@@ -170,7 +170,7 @@ const technologies = [
     icon: java,
   },
   {
-    name: "Spring Framework/Spring Boot",
+    name: "Spring Boot",
     icon: spring,
   },
   {
