@@ -24,8 +24,6 @@ import {
   showingguide,
   angular,
   spring,
-  weaviate,
-  shopify,
   java,
   aws,
   alpinejs,
@@ -33,6 +31,7 @@ import {
   leetcodetracker,
   tesla,
   cypress,
+  go,
 } from "../assets";
 
 export const navLinks = [
@@ -80,7 +79,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Embedded Systems Developer",
+    title: "Backend Developer",
     icon: creator,
   },
 ];
@@ -99,11 +98,11 @@ const technologies = [
     icon: c,
   },
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -113,6 +112,10 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
+  },
+  {
+    name: "Golang",
+    icon: go,
   },
   {
     name: "React JS",
@@ -171,14 +174,6 @@ const technologies = [
     icon: spring,
   },
   {
-    name: "Weaviate",
-    icon: weaviate,
-  },
-  {
-    name: "Shopify",
-    icon: shopify,
-  },
-  {
     name: "Alpine.js",
     icon: alpinejs,
   },
@@ -186,7 +181,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Intern (Software Developer Engineer in Test Intern)",
+    title: "Software Engineer",
+    company_name: "Tesla",
+    icon: tesla,
+    iconBg: "#FFFFFF",
+    date: "January 2024 - Present",
+    points: [
+      "Launched a Jenkins pipeline parallelizing all tests by running them in Docker containers on shared VMs, decreasing total execution time by 56.6% compared to prior sequential pipeline",
+      "Integrated automated screenshot capture into automated test reports, reclaiming 16 team-hours weekly for 4 engineers by streamlining debugging processes and accelerating release cycles",
+      "Developed and rapidly iterated on 12 REST API endpoints using Golang in collaboration with CATL, integrating Tesla's employee data with CATL's user management system",
+      "Implemented an AI Test Automation agent using Python and the Agno library to reduce time spent writing boilerplate end-to-end test code for Tesla One Vision team by 1.5 hours per week",
+      "Created 6 form screens with tooltips for Tesla Vision app to help internal users understand how to create new factory vision workflows"
+    ]
+  },
+  {
+    title: "Software Engineer Intern",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#FFFFFF",
@@ -194,7 +203,7 @@ const experiences = [
     points: [
       "Reduced execution time of end-to-end Cypress tests by 33% by refactoring tests to follow best practices and migrating to Cypress v13",
       "Developed a flake-safe typing test command used in 3 full test suites to make the test suites produce consistent results",
-      "Increased the pass rate of regression tests by 20% by fixing flaky and outdated test cases, allowing all future software releases to be put into production faster by not having to rerun regression tests as often"
+      "Increased the pass rate of regression tests by 20% by fixing flaky and outdated test cases, minimizing time spent re-running tests"
     ]
   },
   {
@@ -204,9 +213,9 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "June 2023 - August 2023",
     points: [
-      "Reduced the time to treatment recommendation (in seconds) for customers by 21.7% by implementing multi-select widget answers in the health concierge chatbot",
+      "Reduced the time to treatment recommendation (in seconds) for customers by 21.7% by implementing multi-select widget answers in the health chatbot using OpenAI API and Java",
       "Enabled thousands of users to efficiently query their subscriptions and orders using product names through the refinement of MongoDB queries in the Java and Spring framework backend",
-      "Enhanced the chatbot's recommendation capabilities by researching, comparing, and integrating three distinct vector databases, ensuring that the best vector database is used to suggest blog posts that align closely with the customer's input",
+      "Enhanced the chatbot's recommendation capabilities by researching, comparing, and integrating the best of 3 vector databases for suggesting relevant company blog posts to end users",
     ],
   },
   {
