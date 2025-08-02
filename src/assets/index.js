@@ -27,8 +27,6 @@ import flask from "./tech/flask.png";
 import sql from "./tech/sql.png";
 import angular from "./tech/angular.png";
 import java from "./tech/java.png";
-import shopify from "./tech/shopify.png";
-import weaviate from "./tech/weaviate.png";
 import spring from "./tech/spring.png";
 import alpinejs from "./tech/alpinejs.png";
 import aws from "./tech/aws.png";
